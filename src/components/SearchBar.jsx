@@ -13,9 +13,9 @@ function SearchBar() {
 
 	return (
 		<div className="crement">
-			<button className="btn btn-sm btn-secondary" onClick={kurang}>Kurang</button>
+			<button className="btn btn-sm btn-error" onClick={kurang}>Kurang</button>
 			<span>{count}</span>
-			<button className="btn btn-sm btn-primary" onClick={tambah}>Tambah</button>
+			<button className="btn btn-sm btn-success" onClick={tambah}>Tambah</button>
 		</div>
 	)
 }
